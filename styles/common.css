@@ -28,6 +28,24 @@ html {
 
 }
 
+.header-container {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container a {
+  text-decoration: none;
+  color: #222122;
+}
+
+.header-container button {
+  border: 1px solid black;
+  background-color: white;
+  padding: 12px 15px;
+}
+
 .title {
   position: relative;
 
