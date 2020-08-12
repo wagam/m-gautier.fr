@@ -1,0 +1,56 @@
+.banner {
+  background-color: #222122;
+  margin: 30px 45px 50px;
+  color: white;
+  padding: 10px;
+  position: relative;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    font-size: 14px;
+  }
+}
+
+.banner:before,
+.banner:after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  border: 18px solid #222122;
+}
+
+.banner:before {
+  left: -36px;
+  border-right-width: 18px;
+  border-left-color: transparent;
+}
+
+.banner:after {
+  right: -36px;
+  border-left-width: 18px;
+  border-right-color: transparent;
+}
+
+.banner-content:before,
+.banner-content:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #222122 transparent transparent transparent;
+  top: 36px;
+}
+
+.banner-content:before {
+  left: 0;
+  border-width: 6px 0 0 6px;
+  transform: rotate(270deg);
+}
+
+.banner-content:after {
+  right: 0;
+  border-width: 6px 6px 0 0;
+
+  transform: rotate(90deg);
+}
