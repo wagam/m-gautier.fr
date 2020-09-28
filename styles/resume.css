@@ -1,10 +1,10 @@
-
 .resume-container {
   padding: 20px;
   border: 2px solid #222122;
   margin: 20px;
   text-align: center;
   text-transform: uppercase;
+  background: white;
 }
 
 .resume-content {
