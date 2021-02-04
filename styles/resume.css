@@ -106,11 +106,15 @@
 }
 
 @media print {
+  body {
+    background: none !important;
+  }
+
   .resume-container {
     zoom: 80%;
   }
 
   .header-container {
-    display: none;
+    display: none !important;
   }
 }
